@@ -1,0 +1,11 @@
+h2{
+    color: blue;
+    font-synthesis: style;
+    text-shadow: darkolivegreen 2px 2px 2px;
+}
+/*ghi chú trong css tương tự với C (chú ý ko sử dụng "//" */
+img{
+    padding: 15px;
+    margin: 25px;
+    border:darkolivegreen dashed medium;
+}

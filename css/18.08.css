@@ -1,0 +1,82 @@
+/* file css cho ngay 18/08 */
+
+h2{
+    
+}
+
+/*universal selector*/
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+/*type selector*/
+a{
+    padding-left: 50px;
+    padding-right: 50px;
+    text-decoration: none;
+}
+
+/*các selector có tên bắt đầu bằng dấu chấm*/
+.autumn{
+    font-style: italic;
+    width: 100%;
+
+    border: none, double medium green, double medium green, double medium green;
+    margin-top: 20px;
+    padding: 2rem;
+    background-color: lightsteelblue;
+}
+.autumn1{
+    font-style: italic;
+    width: 100%;
+
+    border: double medium green;
+    padding: 2rem;
+    background-color: lightsteelblue;
+}
+
+.split{
+    font-style: italic;
+    width: 45%;
+    float: left;
+    margin-top: 20px;
+    padding: 2rem;
+    background-color: lightsteelblue;
+}
+
+/*pseudo class :::first-letter, áp dụng cho thẻ p có class = title*/
+h3.title::first-letter{
+    font-size: 200%;
+}
+/*h3 là tên thẻ cần đổi, ví dụ thẻ p thì đặt p*/
+
+/*pseudo class :::first-letter, áp dụng cho thẻ p có class = title*/
+h3.title::first-line{
+    font-style: normal;
+    font-weight: bolder;
+    color: green;
+
+}
+
+/*các id selector có tên bắt đầu bằng dấu #*/
+#menu{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2em;
+    font-weight: bolder;
+    color: blue;
+}
+
+/* pseudo class ::hover*/
+a:hover{
+    background-color: lightgreen;
+    color: green;
+}
+
+p{
+    text-indent: 2rem;
+}
+
+div.split>p>img{
+    border: mediumblue groove medium;
+    border-radius: 50%;
+    width: 40%;
+}
